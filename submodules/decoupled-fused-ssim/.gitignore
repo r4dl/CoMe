@@ -1,0 +1,8 @@
+build/
+fused_ssim.egg-info/
+decoupled_fused_ssim.egg-info/
+venv/
+__pycache__/
+*.hip
+*.so
+.python-version

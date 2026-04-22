@@ -1,0 +1,32 @@
+name: come
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+  - nvidia
+dependencies:
+  - plyfile
+  - python=3.10
+  - pip
+  - tqdm
+  - dacite
+  - pytorch>=2.1
+  - pytorch-cuda=12.1
+  - torchvision
+  - cmake
+  - gmp
+  - cgal
+  - pip:
+    - open3d
+    - ninja
+    - GPUtil
+    - opencv-python
+    - trimesh
+    - einops
+    # splatviz
+    - imgui_bundle==1.5.2
+    - imgui==2.0.0
+    - scikit-image==0.24
+    - imagecodecs[all]==2024.6.1
+    - nvidia-ml-py
+    - tensorboard

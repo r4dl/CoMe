@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel", "torch"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "decoupled-fused-ssim"
+version = "1.0.0"
+description = "Efficient fully-fused differentiable Decoupled SSIM implementation"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [{name = "Lukas Radl"}]
+dependencies = ["torch>=2.0.0"]
+
+[project.urls]
+Homepage = "https://r4dl.github.io/CoMe/"
+Repository = "https://github.com/r4dl/CoMe"
+
+[tool.setuptools]
+packages = ["decoupled_fused_ssim"]
