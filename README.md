@@ -18,7 +18,7 @@
   </a>
 </p>
 
-<h3 align="center">arXiv 2026</h3>
+<h3 align="center">ECCV 2026</h3>
 
 <h4 align="center">
     <a href="https://r4dl.github.io/">Lukas Radl*</a><sup>1</sup> ·
@@ -47,6 +47,7 @@ For a more visual overview, *cf.* our [project page](https://r4dl.github.io/CoMe
 
 ## News
 
+> - **June 30, 2026** — Our paper is accepted at ECCV'2026.
 > - **April 23, 2026** — Code/Assets release. We updated the paper on [arXiv](https://arxiv.org/abs/2603.24725), and fixed a minor bug regarding the normal variance loss; results are not affected.
 
 ## Code
@@ -450,13 +451,13 @@ For more information, we refer to our <a href="NOTICE.md">Notice</a>.
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
     <pre><code>@misc{radl2026come,
-author = {Radl, Lukas and Windisch, Felix and Kurz, Andreas and K{\"o}hler, Thomas and Steiner, Michael and Steinberger, Markus},
-title = {{Confidence-Based Mesh Extraction from 3D Gaussians}},
-year = {2026},
-eprint = {2603.24725},
-archivePrefix = {arXiv},
-primaryClass = {cs.CV},
-url = {https://arxiv.org/abs/2603.24725}, 
+  author = {Radl, Lukas and Windisch, Felix and Kurz, Andreas and K{\"o}hler, Thomas and Steiner, Michael and Steinberger, Markus},
+  title = {{Confidence-Based Mesh Extraction from 3D Gaussians}},
+  year = {2026},
+  eprint = {2603.24725},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.CV},
+  url = {https://arxiv.org/abs/2603.24725}, 
 }</code></pre>
   </div>
 </section>
